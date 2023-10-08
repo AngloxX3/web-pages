@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho</title>
     <link rel="stylesheet" href="assets./css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/eadc7c264e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo01.css">
     <link rel="stylesheet" href="estilo02.css">
     <link rel="stylesheet" href="estilo03.css">
@@ -20,6 +21,24 @@
          width: 75%;
         }
         }
+      }
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
     </style>
 </head>
 <body>
@@ -45,16 +64,12 @@
     </div>
     <br>
     <br>
-       <div class="row">
-         <div class="col">
-           <div class="primeiraClasse">
+       <div class="row"><div class="col"><div class="primeiraClasse">
               <object data="logo02.jpg" alt="logo02" width="100" height="100"></object>
               <object data="logo02.jpg" alt="logo02" width="100" height="100"></object>
               <object data="logo02.jpg" alt="logo02" width="100" height="100"></object>
               <object data="logo02.jpg" alt="logo02" width="100" height="100"></object>
-           </div>
-          </div>
-        </div>
+        </div></div></div>
         <hr>
         <br>
         <br>
@@ -62,21 +77,27 @@
         <br>
   <H1 class="primeiraClasse">WHY USE OUR PLATAFORM</H1>
   <div class="container pt-5">
-    <div class="row"><div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N01 I'm really good feature. That's why we want to talk about it.</p>
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N02 I'm really good feature. That's why we want to talk about it.</p>
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N03 I'm really good feature. That's why we want to talk about it.</p>
+    <div class="row"><div class="column">
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N01</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N02</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N03</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
      </div></div>
-    <div class="row"><div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N04 I'm really good feature. That's why we want to talk about it.</p>
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N05 I'm really good feature. That's why we want to talk about it.</p>
-      <object data="genericlogo.png" alt="genericlogo" width="30" height="30"></object>
-      <p>FEATURE N06 I'm really good feature. That's why we want to talk about it.</p>
+    <div class="row"><div class="column">
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N04</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N05</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
+      <i class="fas fa-dragon" style="font-size:40px;color:rgb(1, 54, 1);"></i>
+      <h5>FEATURE N06</h5>
+      <p>I'm really good feature. That's why we want to talk about it.</p>
      </div></div>
   </div>
   <hr>
