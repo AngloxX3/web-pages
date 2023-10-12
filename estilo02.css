@@ -2,3 +2,25 @@
   text-align: center;
   display: block;
 }
+
+.right {
+  text-align: right;
+  float: right;
+  width: 300px;
+  padding: 5px;
+}
+
+.hero-image {
+  background-image: url("b-cel1.png");
+  background-color: #ffffff;
+  height: 740px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: small;
+  position: relative;
+}
+
+.img-container2 {
+  text-align: left;
+  display: block;
+}
